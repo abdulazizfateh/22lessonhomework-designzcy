@@ -106,12 +106,10 @@
 }
 
 .nav-contact-btn:hover{
-    font-weight: 600;
     color: rgb(237, 237, 237);
 }
 
 .nav-contact-btn:active{
-    font-weight: 600;
     color: rgb(237, 237, 237);
     background-color: rgb(199, 68, 24) ;
 }
@@ -172,12 +170,10 @@
 }
 
 .hero-consultation-btn:hover{
-    font-weight: 600;
     color: rgb(237, 237, 237);
 }
 
 .hero-consultation-btn:active{
-    font-weight: 600;
     color: rgb(237, 237, 237);
     background-color: rgb(199, 68, 24) ;
 }
@@ -240,7 +236,6 @@
     justify-content: center;
     flex-direction: column;
 }
-
 
 .service-count {
     margin-top: 23px;
@@ -439,12 +434,10 @@
 }
 
 .project-view-btn:hover{
-    font-weight: 600;
     color: rgb(237, 237, 237);
 }
 
 .project-view-btn:active{
-    font-weight: 600;
     color: rgb(237, 237, 237);
     background-color: rgb(199, 68, 24) ;
 }
