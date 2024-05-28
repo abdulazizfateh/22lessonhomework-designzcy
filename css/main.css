@@ -1,0 +1,457 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+@font-face {
+    font-family: Rubik;
+    src: url(../fonts/Rubik/Rubik-Regular.ttf);
+}
+
+@font-face {
+    font-family: Rubik500;
+    src: url(../fonts/Rubik/Rubik-Medium.ttf);
+}
+
+
+@font-face {
+    font-family: DM-Sans400;
+    src: url(../fonts/DM-Sans/DMSans-Regular.ttf);
+}
+
+@font-face {
+    font-family: DM-Sans500;
+    src: url(../fonts/DM-Sans/DMSans-Medium.ttf);
+}
+
+@font-face {
+    font-family: DM-Sans700;
+    src: url(../fonts/DM-Sans/DMSans-Bold.ttf);
+}
+
+.container {
+    margin: 0 auto;
+    width: 1225px;
+}
+
+/* HEADER */
+
+.site-header {
+    padding: 51px 0 0 0;
+}
+
+.navbar {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.site-logo {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+}
+
+.site-logo a {
+    color: rgb(61, 61, 63);
+    font-size: 26px;
+    font-weight: 500;
+    line-height: 31px;
+    text-transform: uppercase;
+    text-decoration: none;
+    font-family: Rubik500;
+}
+
+.nav-list {
+    display: flex;
+    align-items: center;
+    gap: 60px;
+    list-style: none;
+    margin-left: 50px;
+}
+
+.nav-item {
+    font-family: Rubik;
+    text-decoration: none;
+    color: rgb(61, 61, 63);
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 18px;
+}
+
+.nav-item:hover{
+    color:  rgb(0, 0, 0);
+    font-weight: 600;
+}
+
+.nav-item:active{
+    color: rgb(243, 95, 47);
+    font-weight: 600;
+}
+
+.nav-contact-btn {
+    font-family: Rubik;
+    width: 118px;
+    padding: 12px 24px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 500;
+    line-height: 18px;
+    border-radius: 5px;
+    background: linear-gradient(0.41deg, rgb(243, 95, 47) -12.357%, rgba(243, 95, 47, 0.75) 120.117%);
+    opacity: 0.85;
+    border: none;
+    cursor: pointer;
+}
+
+.nav-contact-btn:hover{
+    font-weight: 600;
+    color: rgb(237, 237, 237);
+}
+
+.nav-contact-btn:active{
+    font-weight: 600;
+    color: rgb(237, 237, 237);
+    background-color: rgb(199, 68, 24) ;
+}
+
+/* HEADER */
+
+
+
+
+/* HERO SECTION */
+
+.hero-section {}
+
+.hero-section-wrapper {
+    display: flex;
+    padding: 135px 0 150px 0;
+    justify-content: space-between;
+}
+
+.hero-left {
+    display: flex;
+    flex-direction: column;
+}
+
+.hero-title {
+    width: 570px;
+    font-family: Rubik;
+    color: rgb(61, 61, 63);
+    font-weight: 500;
+    font-size: 51px;
+    line-height: 100px;
+    margin-bottom: 40px;
+}
+
+.hero-text {
+    width: 536px;
+    color: rgb(61, 61, 63);
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 28px;
+    margin-bottom: 50px;
+}
+
+.hero-consultation-btn {
+    width: 219px;
+    padding: 14px 28px;
+    color: rgb(255, 255, 255);
+    font-family: Rubik;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 24px;
+    border-radius: 5px;
+    background: linear-gradient(0.41deg, rgb(243, 95, 47) -7.333%, rgba(243, 95, 47, 0.75) 116.139%);
+    opacity: 0.85;
+    border: none;
+    cursor: pointer;
+}
+
+.hero-consultation-btn:hover{
+    font-weight: 600;
+    color: rgb(237, 237, 237);
+}
+
+.hero-consultation-btn:active{
+    font-weight: 600;
+    color: rgb(237, 237, 237);
+    background-color: rgb(199, 68, 24) ;
+}
+
+.hero-right {
+    display: flex;
+    align-items: center;
+}
+
+/* HERO SECTION */
+
+
+
+
+/* SERVICE SECTION */
+
+.service-section {}
+
+.service-section-wrapper {}
+
+.service-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(61, 61, 63);
+    font-family: DM-Sans700;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 52px;
+    padding-bottom: 55px;
+}
+
+.service-content {
+    margin: 0 auto;
+    width: 1212px;
+    height: 314px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    border-radius: 17px;
+    border: 2px solid #EBEBEBCC;
+}
+
+.service-item {
+    width: 404px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    border-right: 2px solid #EBEBEBCC;
+    list-style: none;
+}
+
+.service-item1 {
+    width: 404px;
+    height: 260px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+.service-count {
+    margin-top: 23px;
+    margin-bottom: 13px;
+    color: rgb(61, 61, 63);
+    font-family: DM-Sans700;
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 47px;
+}
+
+.service-text {
+    color: rgb(61, 61, 63);
+    font-family: DM-Sans400;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 31px;
+    opacity: 0.7;
+}
+
+/* SERVICE SECTION */
+
+
+
+
+/* OFFERS SECTION */
+
+.offer-section {}
+
+.offer-section-wrapper {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    padding-bottom: 120px;
+}
+
+.offer-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(61, 61, 63);
+    font-family: DM-Sans700;
+    font-size: 29px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-top: 60px;
+    padding-bottom: 117px;
+}
+
+.offer-content {
+    display: flex;
+    gap: 51px;
+}
+
+.offer-item {
+    position: relative;
+    padding: 75px 26px 39px 26px;
+    width: 356px;
+    height: 302px;
+    list-style: none;
+    border-radius: 23px;
+    box-shadow: 0px 4px 22px 0px rgba(95, 95, 95, 0.05);
+}
+
+.offer-item-image-wrapper{
+    position: absolute;
+    top: -51px;
+    left: 126px;
+    width: 102px;
+    height: 102px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 50%;
+    background-color: white;
+}
+
+.offer-item-image-wrapper:hover{
+    background-color: rgba(255, 122, 80, 0.83);
+}
+
+.offer-item-image {}
+
+.offer-item-title {
+    display: flex;
+    justify-content: center;
+    color: rgb(61, 61, 63);
+    font-family: DM-Sans700;
+    font-size: 24px;
+    font-weight: 700;
+    line-height: 31px;
+    margin-bottom: 10px;
+}
+
+.offer-item-text {
+    color: rgb(89, 89, 89);
+    font-family: DM-Sans400;
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+.offer-next-wrapper {
+    width: 42px;
+    height: 42px;
+    border-radius: 50%;
+    background-color: rgb(241, 241, 245);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 auto;
+}
+
+.offer-next-wrapper:hover {
+   background-color: rgba(255, 122, 80, 0.83)
+}
+
+/* OFFERS SECTION */
+
+
+
+
+/* PROJECT SECTION */
+
+.project-section {}
+
+.project-section-wrapper {
+}
+
+.project-title {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: rgb(61, 61, 63);
+    font-family: DM-Sans700;
+    font-size: 44px;
+    font-weight: 700;
+    line-height: 52px;
+    margin-bottom: 55px;
+}
+
+.project-content {
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    gap: 22px;
+    padding-bottom: 60px;
+}
+
+.project-item {
+    width: 392px;
+    height: 367px;
+    border-radius: 11px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0px 4px 22px 0px rgba(95, 95, 95, 0.05);
+    list-style: none;
+}
+
+.project-item-image {
+    margin-bottom: 20px;
+}
+
+.project-item-text {
+    display: flex;
+    justify-content: center;
+    color: rgb(61, 61, 63);
+    font-family: DM-Sans500;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 26px;
+}
+
+.project-btn-wrapper{
+    display: flex;
+    justify-content: center;
+}
+
+.project-view-btn {
+    width: 250px;
+    padding: 14px 25px;
+    background-color: rgb(243, 95, 47);
+    color: rgb(255, 255, 255);
+    font-family: DM-Sans400;
+    font-size: 20px;
+    font-weight: 400;
+    line-height: 26px;
+    text-transform: uppercase;
+    border-radius: 5px;
+    background: linear-gradient(0.41deg, rgb(243, 95, 47) -5.462%, rgba(243, 95, 47, 0.75) 114.657%);
+    opacity: 0.85;
+    cursor: pointer;
+    border: none;
+    margin-bottom: 120px;
+}
+
+.project-view-btn:hover{
+    font-weight: 600;
+    color: rgb(237, 237, 237);
+}
+
+.project-view-btn:active{
+    font-weight: 600;
+    color: rgb(237, 237, 237);
+    background-color: rgb(199, 68, 24) ;
+}
+
+
+
+
+
+
+/* PROJECT SECTION */
